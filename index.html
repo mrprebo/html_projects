@@ -1,45 +1,60 @@
-<!-- The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. -->
 <!DOCTYPE html>
 
-<!--After we declare the doctype, we need to provide an <html> element. This is what’s known as the root element of the document, meaning that every other element in the document will be a descendant of it. We also set the language here with the "lang" attribute. Use ! in the first line of a html file to load template.-->
 <html lang="en">
 
-    <!--The head element is where we put important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser. Here we should not use any element that displays content on the webpage.-->
-    <head>
-        <meta charset="UTF-8"> <!--We should always have the meta tag for the charset encoding of the webpage in the head element. It is important for char display.-->
-        <title>My First Webpage</title> <!--The title should always be included in the head of an HTML document. It is needed for a readable title diplay.-->
+    <head charset = "UTF-8">
+
+        <p style="color: white; font-size: 50px; background-color: red;">Lists</p>
+
     </head>
 
-    <!--This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.-->
     <body>
-        <h1>Hello World!</h1> <!--Headings are HTML text elements: they are displayed larger and bolder than other text to signify that they are headings. Headers have 6 levels from h1 largest, to h6 smallest header.-->
-        <h3>This is my new website check it out.</h3>
+        <h1><a href="file:///home/dan57833/html-boilerplate/hb-list/index.html">HOMEPAGE</a></h1>
 
-        <p>On this page you can see some:</p> <!-- <p> is for new paragraph. -->
+        <h2 style="color:white; font-size: 30px; background-color: green;">These are some lists!</h2>
 
-        <em>Latin text <b>such as;</b></em> <!-- <b> is for bold text, while <em> is for emphasis, it makes the text italic. -->
+        <p>This is an <b><em>ordered</em></b> list of my dream cars:</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet cursus sit amet dictum. Viverra nibh cras pulvinar mattis nunc. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Ultricies integer quis auctor elit sed vulputate mi sit.</p>
+        <ol>
+            <li><a href="https://toyotagazooracing.com/gr/yaris">Toyota GR Yaris</a></li> 
+            <p><img src="file:///home/dan57833/html-boilerplate/images/gryaris.jpg" alt="Toyota GR Yaris" height="183" width="342"></p>
 
-        <p><b>As well as;</b></p>
+            <li><a href="https://www.bmw-m.com/en/all-models/overview-m-and-m-performance/bmw-m3-competition-touring/2022/bmw-m3-competition-touring-with-m-xdrive.html">BMW M3 Competition Touring</a></li>
+            <p><img src="file:///home/dan57833/html-boilerplate/images/m3touring.jpg" alt="BMW M3 Competition Touring" height="228" width="342"></p>
 
-        <p>Nibh praesent tristique magna sit. Id ornare arcu odio ut sem nulla pharetra diam. Pretium vulputate sapien nec sagittis. Odio euismod lacinia at quis risus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor.</p>
+            <li><a href="https://www.porsche.com/international/models/911/911-gt3-models/911-gt3-touring">Porsche 911 992 GT3 Touring</a></li>
+            <p><img src="file:///home/dan57833/html-boilerplate/images/992gt3t.jpeg" alt="Porsche 911 992 GT3 Touring" height="228" width="342"></p>
 
-        <p><b>You might say: </b><em>Wtf is this. This shit traaash!</em></p>
+            <li><a href="https://www.chevrolet.com/upcoming-vehicles/2024-corvette-e-ray">Chevrolet Corvette C8 E-Ray</a></li> 
+            <p><img src="file:///home/dan57833/html-boilerplate/images/c8eray.jpg" alt="Chevrolet Corvette C8 E-Ray" height="228" width="342"></p>
 
-        <h2>Well worry no more you little shit ;)</h2>
+            <li><a href="https://www.landrover.co.uk/vehicles/defender/models.html">Land Rover Defender 90 V8</a></li>
+            <p><img src="file:///home/dan57833/html-boilerplate/images/def90v8.jpg" alt="Land Rover Defender 90 V8" height="213" width="342"></p>
+        </ol>
 
-        <h3>Check <em>this</em> out:</h3>
-        
-        <!-- <strong> is also for emphasis but it is used when we want to indicate the importance, seriousness, or urgency of a word or section of content without changing the meaning of the content itself. -->
-        <strong><em>Maecenas pharetra convallis posuere morbi leo urna molestie at elementum. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Aliquam nulla facilisi cras fermentum odio eu feugiat. Id venenatis a condimentum vitae sapien pellentesque. Ac turpis egestas integer eget aliquet nibh praesent tristique. Augue eget arcu dictum varius duis. Elementum integer enim neque volutpat ac tincidunt vitae semper. Blandit aliquam etiam erat velit scelerisque. Platea dictumst vestibulum rhoncus est. Interdum posuere lorem ipsum dolor sit amet. Risus sed vulputate odio ut.</em></strong>
-        
+        <p>And this is a list of <b><em>unordered</em></b> list of programming languages I <strong>want to learn</strong>:</p>
 
-        <h4>I bet your rug started flying after reading that shit out loud huh? ;D</h4>
+        <p><b>Click</b> on the <b><em>images</em></b> to find out more about them</p>
 
-        <p>Now that you've seen some <em>cool ass</em> latino <b>BANGERS</b> let me chill and <strong><em>fuck off my website</em></strong> will ya?</p>
+        <ul>
+            <li><a href="https://go.dev/"><img src="file:///home/dan57833/html-boilerplate/images/Golang.png" alt="Golang" height="193" width="342"></a></li>
 
-        <p>bye :*</p>
+            <li><a href="https://www.java.com/"><img src="file:///home/dan57833/html-boilerplate/images/Java-Logo.png" alt="Java" height="213" width="342"></a></li>
 
+            <li><a href="https://www.python.org/"><img src="file:///home/dan57833/html-boilerplate/images/python.png" alt="Python" height="238" width="342"></a></li>
+
+            <li><a href="https://www.javascript.com/"><img src="file:///home/dan57833/html-boilerplate/images/JavaScript-Logo.png" alt="Javascript" height="213" width="342"></a></li>
+
+            <li><a href="https://dotnet.microsoft.com/en-us/learn/csharp"><img src="file:///home/dan57833/html-boilerplate/images/1200x600wa.png" alt="C#" height="171" width="342"></a></li>
+
+            <li><a href="https://www.php.net/"><img src="file:///home/dan57833/html-boilerplate/images/PHP-logo.svg.png" alt="PHP" height="184" width="342"></a></li>
+
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="file:///home/dan57833/html-boilerplate/images/w3_css-ar21.png" alt="CSS" height="171" width="342"></a></li>
+
+            <li><a href="https://github.com/carbon-language/carbon-lang"><img src="file:///home/dan57833/html-boilerplate/images/e3df5198-c491-4a23-ae88-67509ad402ce-1512592075409.png" alt="Carbon" height="173" width="342"></a></li>
+        </ul>
+
+        <p>To find out about the risks of this page <a href="file:///home/dan57833/html-boilerplate/hb-list/about.html"><b><em>click here</em></b></a></p>
     </body>
-</html> 
+    
+</html>
